@@ -1,0 +1,45 @@
+.calculadora-corpo {
+  height: 830px;
+  width: 423px;
+  background: linear-gradient(
+    166.34deg,
+    #373737 0%,
+    #252628 22.9%,
+    #000309 100%
+  );
+  border-radius: 40px;
+  padding: 34px;
+  margin: 0 auto;
+}
+
+.resumo {
+  display: block;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fbfbfb80;
+  text-align: right;
+  padding: 5px;
+  margin-top: 200px;
+}
+
+.calculadora-corpo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.igualdade {
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fbfbfb;
+}
+
+.resultado {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fbfbfb;
+}
