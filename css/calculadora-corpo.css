@@ -4,7 +4,7 @@
   height: 830px;
   width: 423px;
   background: #345b63;
-  border-radius: 30px;
+  border-radius: 40px;
   margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@
   margin-top: 150px;
 }
 
-.calculadora-corpo-container {
+.calculadora-superior-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,7 @@
   color: #fbfbfb;
 }
 
-.resultado {
+.visor {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.5;

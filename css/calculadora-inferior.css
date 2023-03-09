@@ -1,7 +1,90 @@
 .calculadora-inferior {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   flex: 1;
   background: #152d35;
   z-index: 2;
   border-top: 2px solid #d4ecdd;
   border-radius: 0px 0px 30px 30px;
+  padding: 34px;
+  gap: 20px 30px;
+  font-size: 1.625rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+}
+
+.operadores-primario {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / 4;
+  background: #345b63;
+  border-radius: 40px;
+  padding: 20px;
+  color: #ffa800;
+}
+
+.valores-um {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: 1 / 4;
+  gap: 20px;
+}
+
+.valores-dois {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / 4;
+  gap: 20px;
+}
+
+.valores-tres {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / 4;
+  gap: 20px;
+}
+
+.valores-quatro {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / 4;
+  gap: 20px;
+}
+
+.operadores-secundario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  grid-column: 4 / -1;
+  grid-row: 1 / 6;
+  background: #345b63;
+  padding: 20px;
+  border-radius: 40px;
+  color: #ffa800;
+}
+
+.valores-um span,
+.valores-dois span,
+.valores-tres span,
+.valores-quatro span {
+  background: #345b63;
+  padding: 20px;
+  border-radius: 40px;
+  text-align: center;
+  flex: 1;
+}
+
+#botao-igual {
+  background: #275261;
+  margin: -20px;
+  padding: 20px 25px;
+  width: auto;
+  border-radius: 50px;
+}
+
+#botao-zero {
+  flex: 3 1;
 }
