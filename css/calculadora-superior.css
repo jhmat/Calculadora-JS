@@ -1,0 +1,35 @@
+.calculadora-superior {
+  padding: 34px 34px 0px;
+}
+
+.resumo {
+  display: block;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fbfbfb80;
+  text-align: right;
+  padding: 5px;
+  margin-top: 150px;
+}
+
+.calculadora-superior-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.igualdade {
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fbfbfb;
+}
+
+.visor {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fbfbfb;
+}
