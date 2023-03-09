@@ -1,15 +1,15 @@
 .calculadora-corpo {
+  display: flex;
+  flex-direction: column;
   height: 830px;
   width: 423px;
-  background: linear-gradient(
-    166.34deg,
-    #373737 0%,
-    #252628 22.9%,
-    #000309 100%
-  );
-  border-radius: 40px;
-  padding: 34px;
+  background: #345b63;
+  border-radius: 30px;
   margin: 0 auto;
+}
+
+.calculadora-superior {
+  padding: 34px 34px 0px;
 }
 
 .resumo {
@@ -20,7 +20,7 @@
   color: #fbfbfb80;
   text-align: right;
   padding: 5px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .calculadora-corpo-container {
