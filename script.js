@@ -16,6 +16,10 @@ function limpaVisor() {
   atual.innerText = "";
 }
 
+function delUltimoValor() {
+  atual.innerText = atual.innerText.substring(0, atual.innerText.length - 1);
+}
+
 function atualizaVisor(valor) {
   atual.innerText += valor;
 }
@@ -24,3 +28,5 @@ btnNum.forEach((numero) => {
 });
 
 btnClear.addEventListener("click", limpaVisor);
+
+btnDelete.addEventListener("click", delUltimoValor);
