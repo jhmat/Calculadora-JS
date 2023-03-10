@@ -12,6 +12,20 @@ function addNum(event) {
   atualizaVisor(event.currentTarget.innerText);
 }
 
+function addOprtr(event) {
+  if (event.currentTarget.innerText === "x") {
+    atualizaVisor("*");
+  } else if (event.currentTarget.innerText === "÷") {
+    atualizaVisor("/");
+  } else {
+    atualizaVisor(event.currentTarget.innerText);
+  }
+}
+
+function realizarOperacao() {
+  atual.innerText = eval(atual.innerText);
+}
+
 function limpaVisor() {
   atual.innerText = "";
 }
@@ -23,10 +37,17 @@ function delUltimoValor() {
 function atualizaVisor(valor) {
   atual.innerText += valor;
 }
+
 btnNum.forEach((numero) => {
   numero.addEventListener("click", addNum);
+});
+
+btnOperador.forEach((operador) => {
+  operador.addEventListener("click", addOprtr);
 });
 
 btnClear.addEventListener("click", limpaVisor);
 
 btnDelete.addEventListener("click", delUltimoValor);
+
+btnIgual.addEventListener("click", realizarOperacao);
