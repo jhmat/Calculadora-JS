@@ -8,10 +8,6 @@
   border-radius: 0px 0px 30px 30px;
   padding: 34px;
   gap: 20px 30px;
-  font-size: 1.625rem;
-  line-height: 1.5;
-  font-weight: 600;
-  color: #fff;
 }
 
 .operadores-primario {
@@ -20,7 +16,7 @@
   align-items: center;
   background: #345b63;
   border-radius: 40px;
-  padding: 20px;
+  /* padding: 20px; */
   color: #ffa800;
 }
 
@@ -60,28 +56,15 @@
   grid-column: 2 / -1;
   grid-row: 1 / 6;
   background: #345b63;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 40px;
   color: #ffa800;
 }
 
-.valores-um span,
-.valores-dois span,
-.valores-tres span,
-.valores-quatro span {
-  background: #345b63;
-  padding: 20px;
-  border-radius: 40px;
-  text-align: center;
-  flex: 1;
-}
-
 #botao-igualdade {
   background: #275261;
-  margin: -20px;
-  padding: 20px 30px;
-  width: auto;
-  border-radius: 50px;
+  padding: 10px 33px;
+  border-radius: 40px;
 }
 
 #botao-zero {
