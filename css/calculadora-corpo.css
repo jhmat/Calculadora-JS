@@ -1,8 +1,7 @@
 .calculadora-corpo {
   display: flex;
   flex-direction: column;
-  height: 830px;
-  width: 423px;
+  width: 470px;
   background: #345b63;
   border-radius: 40px;
 }

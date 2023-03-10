@@ -9,8 +9,8 @@
   line-height: 1.5;
   color: #fbfbfb80;
   text-align: right;
-  padding: 5px;
-  margin-top: 150px;
+  padding: 150px 20px 0px;
+  word-break: break-all;
 }
 
 .calculadora-superior-container {
@@ -32,4 +32,5 @@
   font-weight: 600;
   line-height: 1.5;
   color: #fbfbfb;
+  word-break: break-all;
 }
