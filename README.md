@@ -1,1 +1,3 @@
-# Exercício de JavaScript desenvolvendo uma calculadora com operações básicas.
+# Calculadora
+
+Exercício de JavaScript desenvolvendo uma calculadora com operações básicas.
